@@ -1,0 +1,15 @@
+.sidebarOption {
+   display: flex;
+   align-items: center;
+   height: 40px;
+   background-color: yellow;
+   padding: 0 10px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   cursor: pointer;
+   color: #818181;
+}
+
+.sidebarOption > p {
+   font-weight: 300;
+}

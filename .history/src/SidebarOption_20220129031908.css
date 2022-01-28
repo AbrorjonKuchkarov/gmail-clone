@@ -1,0 +1,7 @@
+.sidebarOption {
+   display: flex;
+   align-items: center;
+   height: 40px;
+   background-color: yellow;
+   padding: 0 10px;
+}

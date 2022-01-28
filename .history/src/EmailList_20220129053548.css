@@ -1,0 +1,9 @@
+.emailList {
+   flex: 1;
+   background-color: yellowgreen;
+   overflow: scroll;
+}
+
+.emailList__settings {
+   display: flex;
+}
