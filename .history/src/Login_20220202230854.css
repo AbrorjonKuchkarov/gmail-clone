@@ -1,0 +1,7 @@
+.login {
+
+}
+
+.login__container > img {
+   object-fit: contain;
+}

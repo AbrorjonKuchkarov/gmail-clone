@@ -1,0 +1,8 @@
+.login {
+   display: grid;
+}
+
+.login__container > img {
+   object-fit: contain;
+   height: 200px;
+}

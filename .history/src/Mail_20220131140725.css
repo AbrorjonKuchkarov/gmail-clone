@@ -1,0 +1,9 @@
+.mail {
+   display: flex;
+   background-color: whitesmoke;
+}
+
+.mail__tools {
+   display: flex;
+   justify-content: space-between;
+}
