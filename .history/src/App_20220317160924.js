@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
@@ -22,13 +22,14 @@ function App() {
   useEffect(() => {
     auth.onAuthStateChanged(user => {
       if(user){
-        dispatch(login({
-          displayName: user.displayName,
+        dispatch(login(
+      {    displayName: user.displayName,
           email: user.email,
-          photoUrl: user.photoURL
-        }))
+          photoUrl: user.photoURL}
+        ))
       }
     })
+    //eslint-disable-next-line
   }, [])
 
   return (
