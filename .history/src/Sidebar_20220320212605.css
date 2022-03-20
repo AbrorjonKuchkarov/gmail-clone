@@ -20,22 +20,10 @@
    justify-content: center;
 }
 
-@media (max-width: 520px){
-   .sidebar {
-      flex: 0;
-   }
+.icons-outside-composeBtn {
+   display: none;
+}
 
-   .icons-outside-composeBtn {
-      display: none;
-   }
-   
-   .sidebar__footer {
-      display: none;
-   }
-
-   .compose-btn {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-   }
+.sidebar__footer {
+   display: none;
 }

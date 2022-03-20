@@ -21,10 +21,6 @@
 }
 
 @media (max-width: 520px){
-   .sidebar {
-      flex: 0;
-   }
-
    .icons-outside-composeBtn {
       display: none;
    }

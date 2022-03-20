@@ -64,7 +64,6 @@
 
 @media (max-width: 520px){
    .sendMail {
-      width: 90%;
-      right: 0px;
+      width: 100%;
    }
 }

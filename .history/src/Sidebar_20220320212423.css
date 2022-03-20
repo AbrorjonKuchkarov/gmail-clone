@@ -22,20 +22,11 @@
 
 @media (max-width: 520px){
    .sidebar {
-      flex: 0;
+      display: none;
+      position: relative;
    }
 
-   .icons-outside-composeBtn {
-      display: none;
-   }
-   
-   .sidebar__footer {
-      display: none;
-   }
-
-   .compose-btn {
-      position: absolute;
-      bottom: 0;
-      right: 0;
+  .compose-btn {
+      display: block;
    }
 }

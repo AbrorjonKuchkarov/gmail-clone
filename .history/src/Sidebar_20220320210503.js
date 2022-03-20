@@ -21,12 +21,7 @@ const Sidebar = () => {
    const dispatch = useDispatch();
 
   return <div className='sidebar' >
-     <div className="compose-btn">
-     <Button  startIcon={ <AddIcon fontSize='large'  /> } className='sidebar__compose' onClick={() => dispatch(openSendMessage()) }  >Compose</Button>
-     </div>
-     
-
-     <div className="icons-outside-composeBtn">
+     <Button startIcon={ <AddIcon fontSize='large'  /> } className='sidebar__compose' onClick={() => dispatch(openSendMessage()) } classNam='compose-btn' >Compose</Button>
      <SidebarOption Icon={InboxIcon} title="Inbox" number={54} selected={true} />
      <SidebarOption Icon={StarIcon} title="Starred" number={54} />
      <SidebarOption Icon={AccessTimeIcon} title="Snoozed" number={54} />
@@ -34,8 +29,6 @@ const Sidebar = () => {
      <SidebarOption Icon={NearMeIcon} title="Sent" number={54} />
      <SidebarOption Icon={NoteIcon} title="Drafts" number={54} />
      <SidebarOption Icon={ExpandMoreIcon} title="More" number={54} />
-     </div>
-     
 
      <div className="sidebar__footer">
         <div className="sidebar__footerIcons">
